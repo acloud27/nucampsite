@@ -1,6 +1,6 @@
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
-$color-pale: $color-pale;
+$color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
@@ -20,7 +20,7 @@ h2 {
     color: $color-primary;
 }
 
-header
+header {
     h2 {
         color: $color-pale;
     }
@@ -45,7 +45,7 @@ header
 }
 
 .navbar-dark {
-    background-color: #$color-mid;
+    background-color: $color-mid;
 }
 
 .carousel-caption {
